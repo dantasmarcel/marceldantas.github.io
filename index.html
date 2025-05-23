@@ -6,16 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Web</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!--------------------------------------------- MENU ----------------------------------------------------------------------->
-    <ul>
+    <ul role="navigation">
         <a href="#descricao">
             <p>Descrição</p>
         </a>
         <a href="#habilidades">
             <p>Habilidades</p>
+        </a>
+        <a href="#projetos">
+            <p>Projetos</p>
         </a>
         <a href="#canal">
             <p>Canal do Curso em Vídeo</p>
@@ -64,6 +68,39 @@
                 para o mercado de trabalho. </p>
         </li>
     </ul>
+
+    <!------------------------------------------- PROJETOS ------------------------------------------------------------------->
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <ul>
+            <!-- 
+                COMO ADICIONAR UM NOVO PROJETO:
+                1. Copie toda a estrutura de um '<li>' até '</li>' abaixo.
+                2. Cole abaixo do último projeto existente (antes do '<!-- FIM DA LISTA DE PROJETOS -->').
+                3. Altere os seguintes campos:
+                    - <strong>Nome do Projeto X</strong>: Coloque o nome do seu projeto.
+                    - Breve descrição do projeto: Escreva uma curta descrição sobre o que o projeto faz.
+                    - Tecnologias: Liste as principais tecnologias usadas (ex: HTML, CSS, JavaScript, Python).
+                    - Link para o projeto: No atributo 'href="#"', substitua '#' pelo link direto para o seu projeto (ex: link do GitHub, site do projeto). Se não houver link, pode deixar '#' ou remover o '<a>'.
+            -->
+
+            <!-- PROJETO EXEMPLO 1 (Copie daqui) -->
+            <li>
+                <p><strong>Nome do Projeto 1</strong>: Breve descrição do projeto. Tecnologias: HTML, CSS.</p>
+                <a href="#">Link para o projeto (se houver)</a>
+            </li>
+            <!-- (Até aqui para copiar) -->
+
+            <!-- PROJETO EXEMPLO 2 -->
+            <li>
+                <p><strong>Nome do Projeto 2</strong>: Breve descrição do projeto. Tecnologias: JavaScript, Python.</p>
+                <a href="#">Link para o projeto (se houver)</a>
+            </li>
+
+            <!-- ADICIONE NOVOS PROJETOS ACIMA DESTA LINHA -->
+            <!-- FIM DA LISTA DE PROJETOS -->
+        </ul>
+    </section>
 
 
     <!--------------------------------------------- CANAL ----------------------------------------------------------------------->
